@@ -12,4 +12,8 @@ public class PersonDAO {
         Random random = new Random();
         return random.nextInt();
     }
+
+    public void updatePerson(Person person) {
+
+    }
 }

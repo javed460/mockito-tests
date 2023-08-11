@@ -13,4 +13,8 @@ public class PersonService {
     public Integer createPerson(Person person) {
         return personDAO.createPerson(person);
     }
+
+    public void updatePerson(Person person) {
+        personDAO.updatePerson(person);
+    }
 }
