@@ -12,13 +12,13 @@ import static java.util.Arrays.asList;
 @Service
 public class OrderService {
 
-    public void getOrder(String orderId) {
+    public Order getOrder(String orderId) {
         Order dummyOrder = new Order(orderId);
         dummyOrder.setOrderStatus(SHIPPED);
         dummyOrder.setOrderTotal(100);
         dummyOrder.setPromotionApplied(false);
         dummyOrder.setItems(getDummyItem());
-
+        return dummyOrder;
     }
 
     private List<Item> getDummyItem() {
