@@ -1,2 +1,2 @@
 # mockito-tests
-Showcase Junit / Mockito tests
+Junit / Mockito tests
